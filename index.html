@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Kemal Nure</title>
+  <title>Kemal Nure-Personal Site</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -26,7 +26,37 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+<style>
+  .profile {
+  width:300px;
+  height:300px;
+  border-radius:100%
+}
+.biograghy {
+  display:flex;
+  margin-inline-end: 4rem;
+}
+.technical-skill {
+  display:flex;
+  margin-inline-end: 6rem;
+  
+}
+.technical-skill2 {
+margin-left: 10rem;
+  
+}
+.myworklink{
+  text-decoration:none;
+  color:#FFFFE3;
+  background:#1348DA;
+  padding:0.1rem;
+  height:2.5rem;
+  display:inline-flex;
+  align-items:center;
+  border-radius:1.25rem;
+  
+}
+</style>
 </head>
 
 <body class="index-page"  style="background-color: aquamarine !important;">
@@ -37,17 +67,16 @@
       <a href="" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <!-- <img src="https://kemalnure.netlify.app/assets/img/kemalfull.JPG" width="" alt="Logo"> -->
         <img src="assets/img/kemlogo.png" alt="Logo">
 
         <h1 class="sitename" style="font-weight: bolder; text-transform: capitalize;">Kemal Nure</h1>
       </a>
-
       <nav id="navmenu" class="navmenu" style="color: rgb(35, 33, 33) !important;">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#resume">Resume </a></li>
+          <li><a href="#biograghy">About Me</a></li>
           <li><a href="#portfolio">My Works</a></li>
+          <li><a href="#resume">Resume </a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -65,144 +94,25 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
+    <!-- Biograghy Section -->
     <section id="hero" class="hero section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="biograghy" id="biograghy" data-aos="fade-up" data-aos-delay="100">
+      <img class="profile" src ="https://kemalnure.netlify.app/assets/img/kemalfull.JPG">
+  <div>
+  <h2>My name is Kemal Nure I am full-stack developer at Adama Science and Technology University</h2>
+  <p>I am currently working as a Full-Stack Developer at Adama Science and Technology University,
+     where I continue to contribute to various projects. My role involves both front-end and back-end 
+     development, allowing me to handle the full spectrum of application design and implementation. 
+     I collaborate closely with cross-functional teams to deliver high-quality, scalable solutions.
+      With a strong focus on clean code and efficient architecture, 
+      I strive to enhance user experience and system performance.</p>
 
-        <div class="row align-items-center content">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h2>I'm Kemal Nure</h2>
-            <h5><b>Full-Stack Developer</b></h5>
-            <p class="lead">I design and develop scalable, performance-driven web apps for modern businesses.</p>
-            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-              <a href="#portfolio" class="btn btn-primary">View My Work</a>
-              <a href="#contact" class="btn btn-outline">Let's Connect</a>
-            </div>
-            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
-              <div class="stat-item">
-                <span class="stat-number">5+</span>
-                <span class="stat-label">Years Experience</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number">10+</span>
-                <span class="stat-label">Projects Completed</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number">4+</span>
-                <span class="stat-label">Happy Clients</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-image">
-              <img src="assets/img/developer.webp" alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300">
-              <!-- <img src="assets/img/profile/profile-1.webp" alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300"> -->
-              <div class="shape-1"></div>
-              <div class="shape-2"></div>
-            </div>
-          </div>
-        </div>
-
+   <a class="myworklink" href="#portfolio" class="btn btn-primary">View My Work</a>
+  </div>
       </div>
 
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <div class="title-shape">
-          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
-          </svg>
-        </div>
-        <p>The following section holds some about me</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-          <div class="col-lg-6 position-relative" data-aos="fade-right" data-aos-delay="200">
-            <div class="about-image">
-              <img src="assets/img/kemalfull.JPG" alt="Profile Image" class="img-fluid rounded-4">
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="about-content">
-              <span class="subtitle">About Me</span>
-
-              <h2>Full-Stack Developer</h2>
-
-              <p class="lead mb-4">My name is Kemal Nure, I am full-stack developer at Adama Science and Technology University</p>
-
-              <p class="mb-4">details of my information is:</p>
-
-              <div class="personal-info">
-                <div class="row g-4">
-                  <div class="col-6">
-                    <div class="info-item">
-                      <span class="label">Name</span>
-                      <span class="value">Kemal Nure</span>
-                    </div>
-                  </div>
-
-                  <div class="col-6">
-                    <div class="info-item">
-                      <span class="label">Phone</span>
-                      <span class="value">+251906130947</span>
-                    </div>
-                  </div>
-
-                  <div class="col-6">
-                    <div class="info-item">
-                      <span class="label">Age</span>
-                      <span class="value">28 Years</span>
-                    </div>
-                  </div>
-
-                  <div class="col-6">
-                    <div class="info-item">
-                      <span class="label">Email</span>
-                      <span class="value">kemal.nure1988@gmail.com</span>
-                    </div>
-                  </div>
-
-                  <div class="col-6">
-                    <div class="info-item">
-                      <span class="label">Occupation</span>
-                      <span class="value">Full-Stack Developer</span>
-                    </div>
-                  </div>
-
-                  <div class="col-6">
-                    <div class="info-item">
-                      <span class="label">Nationality</span>
-                      <span class="value">Ethiopia</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="signature mt-4">
-                <div class="signature-image">
-                  <img src="assets/img/signature.png" alt="" class="img-fluid">
-                </div>
-                <div class="signature-info">
-                  <h4>Kemal Nure</h4>
-                  <p>Oromia, Ethiopia</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
+    </section><!-- /Biograghy Section -->
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
@@ -255,238 +165,52 @@
               </div>
             </div>
           </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <div class="title-shape">
-          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
-          </svg>
-        </div>
-        <p>These Section contains my resumes</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-12">
-            <div class="resume-wrapper">
-              <div class="resume-block" data-aos="fade-up">
-                <h2>Work Experience</h2>
-                <p class="lead">Software programmer at Adama Science and Technology University</p>
-
-                <div class="timeline">
-                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="timeline-left">
-                      <h4 class="company">Full-Stack Developer</h4>
-                      <span class="period">May, 2021 - Current</span>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Activites Experianced in Development</h3>
-                      <li>
-                        Collaborated with stakeholders to define system features and functionality based on 
-                        business requirements. 
-                      </li>
-                      <li>
-                        Recommended improvements to facilitate team and project workflow. 
-                        
-                      </li>
-                      <li>
-                        Designed, developed and implemented firmware to support embedded system product 
-                        concepts. 
-                      </li>
-                      <li>
-                        Performed data analysis to identify trends and recommend solutions. 
-                      </li>
-                      <li>
-                        Assisted staff and users with computer malfunctions and program problems. 
-                      </li>
-                      <li>
-                      Monitored system performance metrics to detect anomalies or potential issues before they 
-                      arise. 
-                      </li>
-                      <li> Analyzed business requirements and evaluated system specifications for client websites. </li>
-                      <li> Implemented front-end development using HTML, CSS, and JavaScript to create visually
-                      appealing web pages. 
-                    </li>
-                      <li> Implemented responsive design principles to ensure websites are mobile friendly. </li>
-                      <li> Developed high quality responsive designs that are compatible with all devices. </li>
-                      <li> Implemented SEO best practices to improve website visibility and search engine ranking.</li>
-                        
-                     <li> Created RESTful APIs to enable communication between web applications and 
-                      databases. </li>
-                     <li> Ensured compliance with coding standards such as HTML5, CSS3, JavaScript, PHP. </li>
-                     <li> Designed websites, portals, and large-scale web applications for multiple clients. </li>
-                     <li> Developed custom WordPress themes and plugins to meet specific client requirements.</li> 
-                     <li> Identified areas for improvement, narrowing focus for decision-makers in making 
-                      necessary changes. </li>
-                     <li> Oversaw each project's technical requirements and completed every milestone on time. </li>
-                     <li> Created instruction manuals for most-used software and computer programs to achieve 
-                      easily accessible programming. </li>
-                     <li> Optimized existing database queries for improved performance and scalability. </li>
-                     <li> Reviewed project documentation and made important changes to match updates to 
-                      project scope. </li>
-                     <li> Developed, tested and implemented software programs to meet customer requirements. </li>
-                     <li> Resolved system problems and identified areas for improvement. </li>
-                     <li> Designed software configuration to meet multiple website system hosting requirements. </li>
-                     <li> Documented programming processes including coding logic, debugging steps and 
-                      implementation details. </li>
-                     <li> Documented program development and subsequent revisions with comments for easy 
-                      comprehension. </li>
-                     <li> Leveraged multiple programming languages to develop applications for various 
-                      platforms. </li>
-                     <li> Developed databases, web forms and file systems to fill different needs. </li>
-                     <li> Developed production, test, and beta websites using various software programs. </li>
-                     <li> Developed mitigation strategies and prepared standard operating procedures. </li>
-                     <li> Worked closely with project managers to ensure timely delivery of projects. </li>
-                     <li> Consulted user experience team and managerial department to achieve clarity and 
-                      purpose in upcoming programs. </li>
-                     <li> Programmed applications and tools using object-oriented languages with goals of code 
-                      abstraction, stability and reuse. </li>
-                     <li> Developed and maintained scalable and robust backend systems using Python. </li>
-                     <li> Devised automation, backup and recovery protocols to preserve and safeguard data. </li>
-                    
-                     <li> Developed and maintained web applications using Python, Django, HTML5, CSS3, 
-                     JavaScript, jQuery and SQL. </li>
-                     <li> Managed project parameters, scheduled development milestones, and set engineering 
-                     goals with data-science team. </li>
-                     <li> Analyzed system requirements and contributed to the design and architecture of new 
-                     Python solutions. </li>
-                     <li> Introduced cloud-based technologies into Python development to expand on-premise 
-                     deployment options. </li>
-                     <li> Integrated third-party APIs and services into Python applications to enhance 
-                     functionality. </li>
-                    </div>
-                  </div>
-
-                  <!-- <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="timeline-left"> -->
-                      <!-- <h4 class="company">Nullam Corp</h4>
-                      <span class="period">2019 - 2023</span> -->
-                    <!-- </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Senior graphic design specialist</h3>
-                      <p class="description">
-                        Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas tempus.
-                      </p>
-                      <ul>
-                        <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                        <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                        <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                        <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                      </ul>
-                      <p></p>
-                    </div>
-                  </div> -->
-
-                  <!-- <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
-                   <div class="timeline-left">
-                       <h4 class="company">Stepping Stone Ltd.</h4>
-                      <span class="period">2015-2019</span> 
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Graphic design specialist</h3>
-                      <p class="description">Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas tempus.</p>
-                    </div>
-                  </div>  -->
+            <div class="detail-skill">
+                <h2>Details of technical skills</h2>
+                <div class="technical-skill">
+                <div class="col-6">
+                  <li>Frontend development</li>
+                  <li>RESTful API design</li>
+                  <li>Database management</li>
+                  <li>WordPress customization</li>
+                  <li>System performance monitoring</li>
+                  <li>Data analysis </li>
+                  <li>Technical documentation</li>
+                  <li>SEO optimization </li>
+                  <li> Communication skills </li>
+                  <li> Problem solving </li>
+                  <li> Cross-platform applications </li>
+                  <li> MS office </li>
+                  <li> Django development </li>
+                  <li>Python programming </li>
+                  <li> Application Versioning (Git, GitHub) </li>
                 </div>
-              </div>
-
-              <div class="resume-block" data-aos="fade-up" data-aos-delay="100">
-                <h2>Educational Background</h2>
-                <p class="lead">These Section contain my educational backgrounds.</p>
-
-                <div class="timeline">
-                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="timeline-left">
-                      <h4 class="company">Wolkite University</h4>
-                      <span class="period">2017-2021</span>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">BSc Degree in Computer Science</h3>
-                      <p class="description">Bachilor of Science in Computer Science from Wolkite University.</p>
-                    </div>
-                  </div>
-
-                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="timeline-left">
-                      <h4 class="company">Adama Science and Technology University</h4>
-                      <span class="period">Seb 29,2021 - October 05,2021</span>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Certificate of Completion</h3>
-                      <p class="description">Studio Operation and management,Multimedia design and development,E-learning Content Development,.</p>
-                    </div>
-                  </div>
-                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="timeline-left">
-                      <h4 class="company">Philanthropy University (Online)</h4>
-                      <span class="period">October 21,2021</span>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Certificate of Completion in Fundamental of Project Management</h3>
-                      <p class="description">Content includes Project setup, Scheduling, Budget Preparation, Managing Stakeholders and Staff and manage risks and issues.</p>
-                    </div>
-                  </div>
-                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="timeline-left">
-                      <h4 class="company">Pirple (Online)</h4>
-                      <span class="period">January 11,2021</span>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Certificate of Completion in HTML and CSS3</h3>
-                      <p class="description">Content includes HTML contents like Doctype, header, body ... and CSS contents like Selectors, paddings, margin, borders, backgrounds, properties ...</p>
-                    </div>
-                  </div>
-                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="timeline-left">
-                      <h4 class="company">SimpleLearn (Online)</h4>
-                      <span class="period">January 11,2021</span>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Certificate of Completion in Image Recognitions for beginners</h3>
-                      <p class="description">Content includes Image Processes like data Preparation, cleaning ... and Deep learnings like Model selections, Model Trainings ...</p>
-                    </div>
-                  </div>
-                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="timeline-left">
-                      <h4 class="company">Ethiopian Ministry of Education (Online)</h4>
-                      <span class="period">August 17,2024 to October 8,2024</span>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-right">
-                      <h3 class="position">Certificate of Completion in System Administration</h3>
-                      <p class="description">Content includes System Administration from Level One to Level Two and concludes every contents of system andministration like user management, Content manaement ...</p>
-                    </div>
-                  </div>
+                <div class="technical-skill2">
+                  <li> Database optimization </li>
+                  <li> Responsive design </li>
+                  <li> PHP laravel development </li>
+                  <li> Knowledge of laravel and symfony </li>
+                  <li> Laravel framework experience </li>
+                  <li> Expert laravel framework </li>
+                  <li> PHP and laravel </li>
+                  <li> WordPress development </li>
+                  <li> HTML5, CSS3, JavaScript </li>
+                  <li> Project management </li>
+                  <li> Programming languages </li>
+                  <li> Requirements gathering </li>
+                  <li> Agile methodologies </li>
+                  <li> Software testing </li>
+                  <li> Stakeholder collaboration </li>
+                  <li> Orchestration (Docker, K8) </li>
+                </div>
 
                 </div>
-              </div>
             </div>
-          </div>
         </div>
 
       </div>
 
-    </section><!-- /Resume Section -->
+    </section><!-- /Technical Skills Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -499,7 +223,7 @@
             <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
           </svg>
         </div>
-        <p>Some of works I participated in with my team will be as listed below.</p>
+        <p>Some of my works (activites) I participated in are as listed below.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -509,135 +233,124 @@
           <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
             <ul class="portfolio-filters isotope-filters">
               <li data-filter="*" class="filter-active">All Work</li>
-              <li data-filter=".filter-web"> System Development</li>
-              <li data-filter=".filter-graphics">Syatem Analysis and Documentations</li>
-              <li data-filter=".filter-motion">System Testing </li>
-              <li data-filter=".filter-brand">Deployment and Versioning</li>
+              <li data-filter=".system-development"> System Development</li>
+              <li data-filter=".system-document">Syatem Analysis and Documentations</li>
+              <li data-filter=".system-testing">System Testing </li>
+              <li data-filter=".system-deployment">Deployment and Versioning</li>
             </ul>
           </div>
 
           <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
-            <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+            <div class="col-lg-10 col-md-8 offset-1 portfolio-item isotope-item system-development">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-1.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Web Design</span>
-                  <h3>Modern Dashboard Interface</h3>
-                  <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p>
-                </div>
+                <h3>System Development </h3>
+                     <ul>
+                      <li> Implemented responsive design principles to ensure websites are mobile friendly. </li>
+                      <li> Developed high quality responsive designs that are compatible with all devices. </li>
+                      <li> Implemented SEO best practices to improve website visibility and search engine ranking.</li>
+                        
+                     <li> Created RESTful APIs to enable communication between web applications and 
+                      databases. </li>
+                     <li> Ensured compliance with coding standards such as HTML5, CSS3, JavaScript, PHP. </li>
+                     <li> Designed websites, portals, and large-scale web applications for multiple clients. </li>
+                     <li> Developed custom WordPress themes and plugins to meet specific client requirements.</li> 
+                     <li> Identified areas for improvement, narrowing focus for decision-makers in making 
+                      necessary changes. </li>
+                    <li> Optimized existing database queries for improved performance and scalability. </li>
+                     <li> Reviewed project documentation and made important changes to match updates to 
+                      project scope. </li>
+                     <li> Developed, tested and implemented software programs to meet customer requirements. </li>
+                     <li> Resolved system problems and identified areas for improvement. </li>
+                     <li> Designed software configuration to meet multiple website system hosting requirements. </li>
+                    <li> Leveraged multiple programming languages to develop applications for various 
+                      platforms. </li>
+                     <li> Developed databases, web forms and file systems to fill different needs. </li>
+                     <li> Developed production, test, and beta websites using various software programs. </li>
+                     <li> Developed mitigation strategies and prepared standard operating procedures. </li>
+                     <li> Worked closely with project managers to ensure timely delivery of projects. </li>
+                     <li> Consulted user experience team and managerial department to achieve clarity and 
+                      purpose in upcoming programs. </li>
+                     <li> Programmed applications and tools using object-oriented languages with goals of code 
+                      abstraction, stability and reuse. </li>
+                     <li> Developed and maintained scalable and robust backend systems using Python. </li>
+                     
+                     <li> Developed and maintained web applications using Python, Django, HTML5, CSS3, 
+                     JavaScript, jQuery and SQL. </li>
+                     <li> Managed project parameters, scheduled development milestones, and set engineering 
+                     goals with data-science team. </li>
+                     <li> Introduced cloud-based technologies into Python development to expand on-premise 
+                     deployment options. </li>
+                     <li> Integrated third-party APIs and services into Python applications to enhance 
+                     functionality. </li>
+                     </ul>
               </div>
-            </div> -->
+            </div>
             <!-- End Portfolio Item -->
 
-            <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+           <div class="col-lg-10 col-md-8 offset-1 portfolio-item isotope-item system-document">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-10.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-10.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Graphics</span>
-                  <h3>Creative Brand Identity</h3>
-                  <p>Vestibulum id ligula porta felis euismod semper at vulputate.</p>
-                </div>
-              </div> -->
-            <!-- </div> -->
-            <!-- End Portfolio Item -->
-
-            <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-motion">
-              <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-7.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Motion</span>
-                  <h3>Product Animation Reel</h3>
-                  <p>Donec ullamcorper nulla non metus auctor fringilla dapibus.</p>
-                </div>
+                 <h3>System Documentation </h3>
+                <ul>
+                <li>
+                        Collaborated with stakeholders to define system features and functionality based on 
+                        business requirements. 
+                      </li>
+                      <li>
+                        Designed, developed and implemented firmware to support embedded system product 
+                        concepts. 
+                      </li>
+                      <li>
+                        Performed data analysis to identify trends and recommend solutions. 
+                      </li>
+                      <li> Analyzed business requirements and evaluated system specifications for client websites. </li>
+                       <li> Created instruction manuals for most-used software and computer programs to achieve 
+                      easily accessible programming. </li>
+                     <li> Designed software configuration to meet multiple website system hosting requirements. </li>
+                     <li> Documented programming processes including coding logic, debugging steps and 
+                      implementation details. </li>
+                     <li> Documented program development and subsequent revisions with comments for easy 
+                      comprehension. </li>
+                     <li> Developed mitigation strategies and prepared standard operating procedures. </li>
+                      <li> Analyzed system requirements and contributed to the design and architecture of new 
+                     Python solutions. </li>
+                     
+                     </ul>
               </div>
-            </div> -->
+           </div> 
             <!-- End Portfolio Item -->
 
-            <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-brand">
+             <div class="col-lg-10 col-md-8 offset-1 portfolio-item isotope-item system-testing">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-brand"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Branding</span>
-                  <h3>Luxury Brand Package</h3>
-                  <p>Aenean lacinia bibendum nulla sed consectetur elit.</p>
-                </div>
+                 <h3>System Testing </h3>
+                     <ul>
+                    <li> Tested the software programs to meet customer requirements. </li>
+                     <li> Resolved system problems and identified areas for improvement. </li>
+                     <li> Implemented an integration test with third-party APIs and services into Python applications to enhance 
+                         functionality. 
+                    </li>
+                      <li>
+                        Assisted staff and users with computer malfunctions and program problems. 
+                      </li>
+                      <li>
+                      Monitored system performance metrics to detect anomalies or potential issues before they 
+                      arise. 
+                      </li>
+                     <li> Ensured compliance with coding standards such as HTML5, CSS3, JavaScript, PHP. </li>
+                     
+                     </ul>
               </div>
-            </div> -->
+            </div> 
             <!-- End Portfolio Item -->
 
-            <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+             <div class="col-lg-10 col-md-8 offset-1 portfolio-item isotope-item system-deployment">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Web Design</span>
-                  <h3>E-commerce Platform</h3>
-                  <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
+                 <h3>System Deploment and Automation </h3>
+                      <ul>
+                     
+                     </ul>
               </div>
-            </div> -->
-            <!-- End Portfolio Item -->
-
-            <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
-              <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-11.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-11.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Graphics</span>
-                  <h3>Digital Art Collection</h3>
-                  <p>Cras mattis consectetur purus sit amet fermentum.</p>
-                </div>
-              </div>
-            </div> -->
-            <!-- End Portfolio Item -->
-
+            </div>
           </div>
           <!-- End Portfolio Container -->
 
@@ -654,11 +367,8 @@
 
         <div class="row g-5">
           <div class="col-lg-10 offset-1">
-            <div class="content" data-aos="fade-up" data-aos-delay="200">
-              <div class="section-category mb-3"><h1><b>Contact Information</b></h1></div>
-              <h3 class="display-5 mb-4">Kemal Nure</h3>
-              <p class="lead mb-4">Full-Stack Developer at Adama Science and Technology University.</p>
-
+            <div class="content" style="display: flex;" data-aos="fade-up" data-aos-delay="200">
+              <div class="section-category mb-3"><h3><b>Contact Information</b></h3>
               <div class="contact-info mt-5">
                 <div class="info-item d-flex mb-3">
                   <i class="bi bi-envelope-at me-3"></i>
@@ -674,6 +384,26 @@
                   <i class="bi bi-geo-alt me-3"></i>
                   <span> Oromia, Ethiopia <p style="margin-left: 2%;">Adama</p></span>
                 </div>
+              </div>
+            </div>
+            <!-- social media information  -->
+              <div class="section-category mb-3" style="margin-left: 15rem;"><h3><b>Social media information</b></h3>
+              <div class="contact-info mt-5">
+                <div class="info-item d-flex mb-3">
+                  <i class="bi bi-facebook me-3"></i>
+                   <span><a href="https://web.facebook.com/kemal.nure.35">Facebook</a></span>
+                </div>
+
+                <div class="info-item d-flex mb-3">
+                  <i class="bi bi-telegram me-3"></i>
+                   <span><a href="https://t.me/Kemnure">Telegram</a></span>
+                </div>
+                <div class="info-item d-flex mb-3">
+                  <i class="bi bi-linkedin me-3"></i>
+                  <span><a href="https://www.linkedin.com/in/kemal-nure-3803b42a0">LinkedIn</a></span>
+                </div>
+
+                
               </div>
             </div>
           </div>
